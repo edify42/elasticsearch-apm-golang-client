@@ -1,0 +1,8 @@
+package: github.com/edify42/elasticsearch-apm-golang-client
+import:
+- package: go.elastic.co/apm
+  version: ^1.3.0
+  subpackages:
+  - module/apmgorilla
+- package: github.com/gorilla/mux
+  version: ^1.7.1

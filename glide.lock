@@ -1,0 +1,10 @@
+hash: b6e18265890d15f213935cf61e05352a3e9708b4aea9ae410436df935d90620f
+updated: 2019-05-15T17:00:48.947135+10:00
+imports:
+- name: github.com/gorilla/mux
+  version: c5c6c98bc25355028a63748a498942a6398ccd22
+- name: go.elastic.co/apm
+  version: 392aef3d73e277e8e82bb285e98516675130d84f
+  subpackages:
+  - module/apmgorilla
+testImports: []
